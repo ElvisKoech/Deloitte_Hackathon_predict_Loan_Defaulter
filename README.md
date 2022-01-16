@@ -48,3 +48,11 @@ The challenge is to predict the Loan Status
 Knowledge and Skills Big dataset, underfitting vs overfitting Optimising log_loss to generalise well on unseen data
 
 - Data source: https://www.kaggle.com/ankitkalauni/bank-loan-defaulter-prediction-hackathon
+
+## Data Preprocessing
+- As the values of columns Employment Duration and Home Ownership are interchanged, these columns are renamed to their correct names.
+- Categorical attributes are encoded using LabelEncoder as we will using Random Forest for building the model.
+
+## Features Selection
+
+

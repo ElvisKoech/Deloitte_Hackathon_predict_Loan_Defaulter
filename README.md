@@ -54,5 +54,12 @@ Knowledge and Skills Big dataset, underfitting vs overfitting Optimising log_los
 - Categorical attributes are encoded using LabelEncoder as we will using Random Forest for building the model.
 
 ## Features Selection
+- used ExtraTreesClassifier to select the best features
 
+## valuation Metric
+The competition evaluation metric used is Log-loss.
+
+## Approach
+As this is a classification problem that involves prediction of whether a loan applicant will default or not, built Logistic Regression ,Random Forest and Xgboost models. 
+performed log loss each model and Xgboost performed better with a log loss of 0.32. later performed hyperparameter tunning and train the xgboost model using Aws sagemaker instances And the f1 scores of the model improve from 0.91 to 0.94
 
